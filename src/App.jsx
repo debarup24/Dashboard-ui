@@ -10,6 +10,7 @@ import Sidebar from "./components/common/Sidebar";
 import LoginPage from "./pages/LoginPage";
 import { lazy, Suspense } from "react";
 import Loading from "./components/LazyLoading/Loading";
+import AiMail from "./components/AiMail/AiMail";
 
 function App() {
   const LazyLoading = lazy(() =>
@@ -42,6 +43,7 @@ function App() {
         <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/ai-mail" element={<AiMail />} />
       </Routes>
     </div>
   );

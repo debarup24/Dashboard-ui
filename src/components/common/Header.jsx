@@ -13,9 +13,11 @@ const Header = ({ title }) => {
 
       <div className="p-4 mr-10">
         <ul className="flex flex-row gap-8">
-          <li className="cursor-pointer p-1 text-xs md:text-sm md:font-semibold lg:text-base hover:text-yellow-300">
-            AI Mail
-          </li>
+          <Link to={"/ai-mail"}>
+            <li className="cursor-pointer p-1 text-xs md:text-sm md:font-semibold lg:text-base hover:text-yellow-300">
+              AI Mail
+            </li>
+          </Link>
           <Link to={"/ondemand-loading"}>
             <li className="cursor-pointer hover:text-yellow-300 p-1 text-xs md:text-sm lg:text-base md:font-semibold">
               Lazy Load
