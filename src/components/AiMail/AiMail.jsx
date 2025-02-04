@@ -51,7 +51,7 @@ const AiMail = () => {
                     </div>
                   </div>
 
-                  {/* <div>
+                  <div>
                     <label className="block text-sm font-medium mb-2">
                       Email Prompt
                     </label>
@@ -64,7 +64,7 @@ const AiMail = () => {
                     <button className="p-3 m-1 bg-gray-700 font-semibold rounded-lg cursor-pointer px-4">
                       Generate Email
                     </button>
-                  </div> */}
+                  </div>
                 </form>
               </div>
             </ResponsiveContainer>
