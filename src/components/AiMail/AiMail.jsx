@@ -36,7 +36,7 @@ const AiMail = () => {
                       />
                     </div>
                   </div>
-                  {/* <div>
+                  <div>
                     <label className="block text-sm font-medium mb-2">
                       Subject
                     </label>
@@ -49,7 +49,7 @@ const AiMail = () => {
                         className="w-full bg-transparent outline-none"
                       />
                     </div>
-                  </div> */}
+                  </div>
 
                   {/* <div>
                     <label className="block text-sm font-medium mb-2">
