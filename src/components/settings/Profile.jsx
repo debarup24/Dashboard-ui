@@ -6,7 +6,7 @@ const Profile = () => {
     <SettingSection icon={User} title={"Profile"}>
       <div className="flex flex-col sm:flex-row items-center mb-6">
         <img
-          src="https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png"
+          src="https://lh3.googleusercontent.com/a/ACg8ocKQVJ2uFQV_6SmH2U7H-VPolme5q_AGgU0MhDrURSbGJtmmiNi_=s360-c-no"
           alt="Profile"
           className="rounded-full w-20 h-20 object-cover mr-4"
         />
