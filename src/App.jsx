@@ -8,8 +8,14 @@ import AnalyticsPage from "./pages/AnalyticsPage";
 import OrdersPage from "./pages/OrdersPage";
 import Sidebar from "./components/common/Sidebar";
 import LoginPage from "./pages/LoginPage";
+import { lazy, Suspense } from "react";
+import Loading from "./components/LazyLoading/Loading";
 
 function App() {
+  const LazyLoading = lazy(() =>
+    import("./components/LazyLoading/LazyLoading")
+  );
+
   return (
     <div className="flex h-screen bg-gray-900 text-gray-100 overflow-hidden">
       {/* BG */}
@@ -19,6 +25,13 @@ function App() {
       </div>
 
       <Sidebar />
+
+      <Suspense fallback={<Loading />}>
+        <Routes>
+          {" "}
+          <Route path="/ondemand-loading" element={<LazyLoading />} />{" "}
+        </Routes>
+      </Suspense>
 
       <Routes>
         <Route path="/" element={<OverviewPage />} />

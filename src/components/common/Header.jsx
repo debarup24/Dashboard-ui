@@ -16,9 +16,11 @@ const Header = ({ title }) => {
           <li className="cursor-pointer p-1 text-xs md:text-sm md:font-semibold lg:text-base hover:text-yellow-300">
             AI Mail
           </li>
-          <li className="cursor-pointer hover:text-yellow-300 p-1 text-xs md:text-sm lg:text-base md:font-semibold">
-            Lazy Load
-          </li>
+          <Link to={"/ondemand-loading"}>
+            <li className="cursor-pointer hover:text-yellow-300 p-1 text-xs md:text-sm lg:text-base md:font-semibold">
+              Lazy Load
+            </li>
+          </Link>
           <Link to={"/login"}>
             <li className="bg-slate-900 rounded-full p-0 md:p-1.5 cursor-pointer">
               {" "}
