@@ -13,13 +13,13 @@ const orderData = [
   {
     id: "ORD002",
     customer: "Dev Smith",
-    total: 412.0,
+    total: 413.0,
     status: "Processing",
     date: "2025-02-03",
   },
   {
     id: "ORD003",
-    customer: "Sunny",
+    customer: "Sunny Chopra",
     total: 162.5,
     status: "Shipped",
     date: "2025-02-01",

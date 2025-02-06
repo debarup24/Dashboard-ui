@@ -28,8 +28,6 @@ const AiMail = () => {
                     <div className="mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-xl bg-[#333A5C]">
                       <input
                         type="email"
-                        // value={recipients}
-                        //onChange={(e) => setRecipients(e.target.value)}
                         placeholder="john@example.com, jane@example.com"
                         className="w-full bg-transparent outline-none"
                       />
