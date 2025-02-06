@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../common/Header";
 import { motion } from "framer-motion";
 import { ResponsiveContainer } from "recharts";
-import { Input } from "postcss";
 
 const AiMail = () => {
   return (
