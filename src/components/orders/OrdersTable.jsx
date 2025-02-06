@@ -27,7 +27,7 @@ const orderData = [
   {
     id: "ORD004",
     customer: "Alice Brown",
-    total: 750.2,
+    total: 751.2,
     status: "Pending",
     date: "2025-02-03",
   },
