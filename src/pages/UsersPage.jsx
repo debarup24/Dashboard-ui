@@ -13,7 +13,7 @@ const userStats = {
   totalUsers: 252845,
   newUsersToday: 143,
   activeUsers: 33520,
-  churnRate: "2.6%",
+  churnRate: "2.4%",
 };
 
 const UsersPage = () => {
