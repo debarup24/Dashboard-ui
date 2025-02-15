@@ -13,6 +13,7 @@ const LazyLoading = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
+{/*           Content */}
           <div className="w-full h-auto">
             <ResponsiveContainer>
               <h1 className="text-xl"> This is Lazy Loading Page!</h1>
